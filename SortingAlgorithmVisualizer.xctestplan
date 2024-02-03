@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "015243FF-0048-4C5B-836D-53A3A8128932",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SortingAlgorithmVisualizer.xcodeproj",
+      "identifier" : "BD59639B2B69758F00BCDD5F",
+      "name" : "SortingAlgorithmVisualizer"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SortingAlgorithmVisualizer.xcodeproj",
+        "identifier" : "BD531D072B6C805A001C32D8",
+        "name" : "SortingAlgorithmVisualizerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

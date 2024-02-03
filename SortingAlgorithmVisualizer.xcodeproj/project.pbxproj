@@ -7,24 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD531D0B2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531D0A2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift */; };
+		BD531D182B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531D172B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift */; };
 		BD5963A02B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59639F2B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift */; };
 		BD5963A22B69758F00BCDD5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963A12B69758F00BCDD5F /* ContentView.swift */; };
 		BD5963A42B69759000BCDD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5963A32B69759000BCDD5F /* Assets.xcassets */; };
 		BD5963A72B69759000BCDD5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5963A62B69759000BCDD5F /* Preview Assets.xcassets */; };
-		BD5963B22B69759000BCDD5F /* SortingAlgorithmVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963B12B69759000BCDD5F /* SortingAlgorithmVisualizerTests.swift */; };
-		BD5963BC2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963BB2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.swift */; };
-		BD5963BE2B69759000BCDD5F /* SortingAlgorithmVisualizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963BD2B69759000BCDD5F /* SortingAlgorithmVisualizerUITestsLaunchTests.swift */; };
+		BD5964082B6B645F00BCDD5F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5964072B6B645F00BCDD5F /* Bar.swift */; };
+		BD59640B2B6B65B200BCDD5F /* BarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59640A2B6B65B200BCDD5F /* BarContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BD5963AE2B69759000BCDD5F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD5963942B69758F00BCDD5F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD59639B2B69758F00BCDD5F;
-			remoteInfo = SortingAlgorithmVisualizer;
-		};
-		BD5963B82B69759000BCDD5F /* PBXContainerItemProxy */ = {
+		BD531D0C2B6C805A001C32D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BD5963942B69758F00BCDD5F /* Project object */;
 			proxyType = 1;
@@ -34,35 +28,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD531D082B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortingAlgorithmVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD531D0A2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerTests.swift; sourceTree = "<group>"; };
+		BD531D112B6C87F8001C32D8 /* SortingAlgorithmVisualizer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SortingAlgorithmVisualizer.xctestplan; sourceTree = "<group>"; };
+		BD531D172B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Nanoseconds.swift"; sourceTree = "<group>"; };
 		BD59639C2B69758F00BCDD5F /* SortingAlgorithmVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingAlgorithmVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD59639F2B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerApp.swift; sourceTree = "<group>"; };
 		BD5963A12B69758F00BCDD5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD5963A32B69759000BCDD5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5963A62B69759000BCDD5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD5963A82B69759000BCDD5F /* SortingAlgorithmVisualizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SortingAlgorithmVisualizer.entitlements; sourceTree = "<group>"; };
-		BD5963AD2B69759000BCDD5F /* SortingAlgorithmVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortingAlgorithmVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5963B12B69759000BCDD5F /* SortingAlgorithmVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerTests.swift; sourceTree = "<group>"; };
-		BD5963B72B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortingAlgorithmVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5963BB2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerUITests.swift; sourceTree = "<group>"; };
-		BD5963BD2B69759000BCDD5F /* SortingAlgorithmVisualizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD5964072B6B645F00BCDD5F /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		BD59640A2B6B65B200BCDD5F /* BarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BD531D052B6C805A001C32D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD5963992B69758F00BCDD5F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD5963AA2B69759000BCDD5F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD5963B42B69759000BCDD5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,12 +60,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD531D092B6C805A001C32D8 /* SortingAlgorithmVisualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD531D0A2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift */,
+			);
+			path = SortingAlgorithmVisualizerTests;
+			sourceTree = "<group>";
+		};
+		BD531D162B6CC82E001C32D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD531D172B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BD5963932B69758F00BCDD5F = {
 			isa = PBXGroup;
 			children = (
+				BD531D112B6C87F8001C32D8 /* SortingAlgorithmVisualizer.xctestplan */,
 				BD59639E2B69758F00BCDD5F /* SortingAlgorithmVisualizer */,
-				BD5963B02B69759000BCDD5F /* SortingAlgorithmVisualizerTests */,
-				BD5963BA2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests */,
+				BD531D092B6C805A001C32D8 /* SortingAlgorithmVisualizerTests */,
 				BD59639D2B69758F00BCDD5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				BD59639C2B69758F00BCDD5F /* SortingAlgorithmVisualizer.app */,
-				BD5963AD2B69759000BCDD5F /* SortingAlgorithmVisualizerTests.xctest */,
-				BD5963B72B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.xctest */,
+				BD531D082B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +98,10 @@
 		BD59639E2B69758F00BCDD5F /* SortingAlgorithmVisualizer */ = {
 			isa = PBXGroup;
 			children = (
+				BD531D162B6CC82E001C32D8 /* Extensions */,
+				BD5964092B6B65A300BCDD5F /* Models */,
+				BD59640C2B6B660300BCDD5F /* Views */,
 				BD59639F2B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift */,
-				BD5963A12B69758F00BCDD5F /* ContentView.swift */,
 				BD5963A32B69759000BCDD5F /* Assets.xcassets */,
 				BD5963A82B69759000BCDD5F /* SortingAlgorithmVisualizer.entitlements */,
 				BD5963A52B69759000BCDD5F /* Preview Content */,
@@ -112,26 +117,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BD5963B02B69759000BCDD5F /* SortingAlgorithmVisualizerTests */ = {
+		BD5964092B6B65A300BCDD5F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BD5963B12B69759000BCDD5F /* SortingAlgorithmVisualizerTests.swift */,
+				BD5964072B6B645F00BCDD5F /* Bar.swift */,
+				BD59640A2B6B65B200BCDD5F /* BarContainer.swift */,
 			);
-			path = SortingAlgorithmVisualizerTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		BD5963BA2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests */ = {
+		BD59640C2B6B660300BCDD5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BD5963BB2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.swift */,
-				BD5963BD2B69759000BCDD5F /* SortingAlgorithmVisualizerUITestsLaunchTests.swift */,
+				BD5963A12B69758F00BCDD5F /* ContentView.swift */,
 			);
-			path = SortingAlgorithmVisualizerUITests;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BD531D072B6C805A001C32D8 /* SortingAlgorithmVisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD531D102B6C805A001C32D8 /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerTests" */;
+			buildPhases = (
+				BD531D042B6C805A001C32D8 /* Sources */,
+				BD531D052B6C805A001C32D8 /* Frameworks */,
+				BD531D062B6C805A001C32D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD531D0D2B6C805A001C32D8 /* PBXTargetDependency */,
+			);
+			name = SortingAlgorithmVisualizerTests;
+			productName = SortingAlgorithmVisualizerTests;
+			productReference = BD531D082B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BD59639B2B69758F00BCDD5F /* SortingAlgorithmVisualizer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD5963C12B69759000BCDD5F /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizer" */;
@@ -149,42 +172,6 @@
 			productReference = BD59639C2B69758F00BCDD5F /* SortingAlgorithmVisualizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD5963AC2B69759000BCDD5F /* SortingAlgorithmVisualizerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD5963C42B69759000BCDD5F /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerTests" */;
-			buildPhases = (
-				BD5963A92B69759000BCDD5F /* Sources */,
-				BD5963AA2B69759000BCDD5F /* Frameworks */,
-				BD5963AB2B69759000BCDD5F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD5963AF2B69759000BCDD5F /* PBXTargetDependency */,
-			);
-			name = SortingAlgorithmVisualizerTests;
-			productName = SortingAlgorithmVisualizerTests;
-			productReference = BD5963AD2B69759000BCDD5F /* SortingAlgorithmVisualizerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BD5963B62B69759000BCDD5F /* SortingAlgorithmVisualizerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD5963C72B69759000BCDD5F /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerUITests" */;
-			buildPhases = (
-				BD5963B32B69759000BCDD5F /* Sources */,
-				BD5963B42B69759000BCDD5F /* Frameworks */,
-				BD5963B52B69759000BCDD5F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD5963B92B69759000BCDD5F /* PBXTargetDependency */,
-			);
-			name = SortingAlgorithmVisualizerUITests;
-			productName = SortingAlgorithmVisualizerUITests;
-			productReference = BD5963B72B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,16 +182,12 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					BD531D072B6C805A001C32D8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD59639B2B69758F00BCDD5F;
+					};
 					BD59639B2B69758F00BCDD5F = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					BD5963AC2B69759000BCDD5F = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = BD59639B2B69758F00BCDD5F;
-					};
-					BD5963B62B69759000BCDD5F = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = BD59639B2B69758F00BCDD5F;
 					};
 				};
 			};
@@ -222,13 +205,19 @@
 			projectRoot = "";
 			targets = (
 				BD59639B2B69758F00BCDD5F /* SortingAlgorithmVisualizer */,
-				BD5963AC2B69759000BCDD5F /* SortingAlgorithmVisualizerTests */,
-				BD5963B62B69759000BCDD5F /* SortingAlgorithmVisualizerUITests */,
+				BD531D072B6C805A001C32D8 /* SortingAlgorithmVisualizerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BD531D062B6C805A001C32D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD59639A2B69758F00BCDD5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,65 +227,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD5963AB2B69759000BCDD5F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD5963B52B69759000BCDD5F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BD531D042B6C805A001C32D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD531D0B2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD5963982B69758F00BCDD5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD59640B2B6B65B200BCDD5F /* BarContainer.swift in Sources */,
 				BD5963A22B69758F00BCDD5F /* ContentView.swift in Sources */,
+				BD531D182B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift in Sources */,
+				BD5964082B6B645F00BCDD5F /* Bar.swift in Sources */,
 				BD5963A02B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD5963A92B69759000BCDD5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD5963B22B69759000BCDD5F /* SortingAlgorithmVisualizerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD5963B32B69759000BCDD5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD5963BC2B69759000BCDD5F /* SortingAlgorithmVisualizerUITests.swift in Sources */,
-				BD5963BE2B69759000BCDD5F /* SortingAlgorithmVisualizerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD5963AF2B69759000BCDD5F /* PBXTargetDependency */ = {
+		BD531D0D2B6C805A001C32D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BD59639B2B69758F00BCDD5F /* SortingAlgorithmVisualizer */;
-			targetProxy = BD5963AE2B69759000BCDD5F /* PBXContainerItemProxy */;
-		};
-		BD5963B92B69759000BCDD5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD59639B2B69758F00BCDD5F /* SortingAlgorithmVisualizer */;
-			targetProxy = BD5963B82B69759000BCDD5F /* PBXContainerItemProxy */;
+			targetProxy = BD531D0C2B6C805A001C32D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BD531D0E2B6C805A001C32D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortingAlgorithmVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SortingAlgorithmVisualizer";
+			};
+			name = Debug;
+		};
+		BD531D0F2B6C805A001C32D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortingAlgorithmVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SortingAlgorithmVisualizer";
+			};
+			name = Release;
+		};
 		BD5963BF2B69759000BCDD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -469,81 +467,18 @@
 			};
 			name = Release;
 		};
-		BD5963C52B69759000BCDD5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HV7TRQD227;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortingAlgorithmVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SortingAlgorithmVisualizer";
-			};
-			name = Debug;
-		};
-		BD5963C62B69759000BCDD5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HV7TRQD227;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortingAlgorithmVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SortingAlgorithmVisualizer";
-			};
-			name = Release;
-		};
-		BD5963C82B69759000BCDD5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HV7TRQD227;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SortingAlgorithmVisualizer;
-			};
-			name = Debug;
-		};
-		BD5963C92B69759000BCDD5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HV7TRQD227;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Neal-Archival.SortingAlgorithmVisualizerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SortingAlgorithmVisualizer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD531D102B6C805A001C32D8 /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD531D0E2B6C805A001C32D8 /* Debug */,
+				BD531D0F2B6C805A001C32D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BD5963972B69758F00BCDD5F /* Build configuration list for PBXProject "SortingAlgorithmVisualizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,24 +493,6 @@
 			buildConfigurations = (
 				BD5963C22B69759000BCDD5F /* Debug */,
 				BD5963C32B69759000BCDD5F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD5963C42B69759000BCDD5F /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD5963C52B69759000BCDD5F /* Debug */,
-				BD5963C62B69759000BCDD5F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD5963C72B69759000BCDD5F /* Build configuration list for PBXNativeTarget "SortingAlgorithmVisualizerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD5963C82B69759000BCDD5F /* Debug */,
-				BD5963C92B69759000BCDD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
