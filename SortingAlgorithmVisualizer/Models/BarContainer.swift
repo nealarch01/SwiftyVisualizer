@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+// MARK: Algorithm Type
 enum AlgorithmType: Int, CaseIterable, Identifiable {
     case bubbleSort
     case selectionSort
@@ -27,12 +28,13 @@ enum AlgorithmType: Int, CaseIterable, Identifiable {
     }
 }
 
+// MARK: BarContainer
 class BarContainer: ObservableObject {
+    private let numberOfBars: Int = 50
+    
     @Published private(set) var values: [Bar]
     @Published private(set) var active: Bool
     private var pauseDuration: TimeInterval
-    
-    private let numberOfBars: Int = 50
     
     init(pauseDuration: TimeInterval = 0.01) {
         self.values = []
@@ -91,7 +93,6 @@ class BarContainer: ObservableObject {
     
     private func bubbleSort() async {
         let count = values.count
-        
         for _ in 0..<count {
             if !active { return }
             for j in 0..<count - 1 {
@@ -105,11 +106,11 @@ class BarContainer: ObservableObject {
     
     private func selectionSort() async {
         let count = values.count
-        
         for i in 0..<(count - 1) {
+            if !active { return }
             var minimumValueIndex = i
-            // Find the index of the minimum element in the unsorted part
             for j in (i + 1)..<count {
+                if !active { return }
                 if values[j] < values[minimumValueIndex] {
                     minimumValueIndex = j
                 }
@@ -123,13 +124,11 @@ class BarContainer: ObservableObject {
     private func insertionSort() async {
         let count = values.count
         
-        print("Count: \(values.count)")
-        
         for i in 1..<count {
+            if !active { return }
              var j = i
-             
-             // Swap elements to their correct positions in the sorted part
              while j > 0 && values[j] < values[j - 1] {
+                 if !active { return }
                  await swap(j, j - 1)
                  j -= 1
              }

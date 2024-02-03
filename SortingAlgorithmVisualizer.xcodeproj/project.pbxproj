@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD531D0B2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531D0A2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift */; };
 		BD531D182B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531D172B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift */; };
+		BD531D1E2B6DFEE3001C32D8 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD531D1D2B6DFEE3001C32D8 /* .swiftlint.yml */; };
+		BD531D1F2B6DFEE3001C32D8 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD531D1D2B6DFEE3001C32D8 /* .swiftlint.yml */; };
 		BD5963A02B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59639F2B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift */; };
 		BD5963A22B69758F00BCDD5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963A12B69758F00BCDD5F /* ContentView.swift */; };
 		BD5963A42B69759000BCDD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5963A32B69759000BCDD5F /* Assets.xcassets */; };
@@ -32,6 +34,7 @@
 		BD531D0A2B6C805A001C32D8 /* SortingAlgorithmVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerTests.swift; sourceTree = "<group>"; };
 		BD531D112B6C87F8001C32D8 /* SortingAlgorithmVisualizer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SortingAlgorithmVisualizer.xctestplan; sourceTree = "<group>"; };
 		BD531D172B6CC83B001C32D8 /* TimeInterval+Nanoseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Nanoseconds.swift"; sourceTree = "<group>"; };
+		BD531D1D2B6DFEE3001C32D8 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		BD59639C2B69758F00BCDD5F /* SortingAlgorithmVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingAlgorithmVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD59639F2B69758F00BCDD5F /* SortingAlgorithmVisualizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmVisualizerApp.swift; sourceTree = "<group>"; };
 		BD5963A12B69758F00BCDD5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		BD5963932B69758F00BCDD5F = {
 			isa = PBXGroup;
 			children = (
+				BD531D1D2B6DFEE3001C32D8 /* .swiftlint.yml */,
 				BD531D112B6C87F8001C32D8 /* SortingAlgorithmVisualizer.xctestplan */,
 				BD59639E2B69758F00BCDD5F /* SortingAlgorithmVisualizer */,
 				BD531D092B6C805A001C32D8 /* SortingAlgorithmVisualizerTests */,
@@ -162,6 +166,7 @@
 				BD5963982B69758F00BCDD5F /* Sources */,
 				BD5963992B69758F00BCDD5F /* Frameworks */,
 				BD59639A2B69758F00BCDD5F /* Resources */,
+				BD531D192B6DF704001C32D8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -215,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD531D1F2B6DFEE3001C32D8 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +228,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD531D1E2B6DFEE3001C32D8 /* .swiftlint.yml in Resources */,
 				BD5963A72B69759000BCDD5F /* Preview Assets.xcassets in Resources */,
 				BD5963A42B69759000BCDD5F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD531D192B6DF704001C32D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD531D042B6C805A001C32D8 /* Sources */ = {
@@ -332,7 +360,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +423,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

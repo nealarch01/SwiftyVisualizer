@@ -45,7 +45,7 @@ final class SortingAlgorithmVisualizerTests: XCTestCase {
 }
 
 extension [Bar] {
-    static public func ==(lhs: [Bar], rhs: [Bar]) -> Bool {
+    static public func == (lhs: [Bar], rhs: [Bar]) -> Bool {
         if lhs.count != rhs.count {
             return false
         }

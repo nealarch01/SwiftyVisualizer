@@ -23,27 +23,27 @@ extension Bar: Equatable {
         self.highlighted = highlighted
     }
     
-    static func ==(lhs: Bar, rhs: Bar) -> Bool {
+    static func == (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value == rhs.value
     }
     
-    static func !=(lhs: Bar, rhs: Bar) -> Bool {
+    static func != (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value != rhs.value
     }
     
-    static func <(lhs: Bar, rhs: Bar) -> Bool {
+    static func < (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value < rhs.value
     }
     
-    static func <=(lhs: Bar, rhs: Bar) -> Bool {
+    static func <= (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value <= rhs.value
     }
     
-    static func >(lhs: Bar, rhs: Bar) -> Bool {
+    static func > (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value > rhs.value
     }
     
-    static func >=(lhs: Bar, rhs: Bar) -> Bool {
+    static func >= (lhs: Bar, rhs: Bar) -> Bool {
         lhs.value >= rhs.value
     }
 }
